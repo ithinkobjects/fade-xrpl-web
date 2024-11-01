@@ -59,7 +59,7 @@ const Footer = ({$home, $connect, handleDisclaimer}) => {
                 <TextSpan $notLink={'true'}>.</TextSpan>
               </SectionDiv>
               <SectionDiv>
-                <TextSpan $notLink={'true'}>Treasury address: rD6abAHSvqcdjVh7eppC8HA1LMQA2V8FHf.</TextSpan>
+                <TextSpan $notLink={'true'}>Treasury: rD6abAHSvqcdjVh7eppC8HA1LMQA2V8FHf.</TextSpan>
                 <IconButton icon={faInfoCircle} onClick={() => {handleDisclaimer('treasury')}}/>
               </SectionDiv>
             </React.Fragment>
